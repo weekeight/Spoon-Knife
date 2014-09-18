@@ -2,7 +2,7 @@
 
 cd $1
 
-if [$# -eq 3];then
+if [ $# -eq 3 ];then
 	echo '333'
 	git add --all
 	git commit -am $3
