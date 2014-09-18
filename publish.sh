@@ -3,8 +3,7 @@
 cd $1
 
 echo $3
-if $3
-then
+if [$#=3];then
 	echo '333'
 	git add --all
 	git commit -am $3
