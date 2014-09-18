@@ -2,7 +2,7 @@
 
 cd $1
 
-echo $#
+echo $3
 if $3
 then
 	echo '333'
