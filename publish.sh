@@ -8,4 +8,4 @@ git tag publish/$2
 git push origin master:daily/$2
 git push origin publish/$2:publish/$2
 
-echo 'done...';
+echo 'publish done...';
